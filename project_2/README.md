@@ -27,7 +27,7 @@ Project Description
 
 Be Your Own Bartender App!
 
-In today's current nightmarish socio-political climate who doesn't need a drink! 
+In today's current nightmarish sociopolitical climate who doesn't need a drink! 
 
 Have you always wanted to know how to craft your own cocktails?! Well now you can. The Be Your Own Bartender App will help you indentify the ingredients in those classic cocktails. It will also allow you to search new cocktail ideas by whatever ingredient you feel like having.
 
