@@ -28,6 +28,9 @@ The components will walk you through the 7 major growing regions with a concise 
 
 Oh, and if this encourages you to drink more wine...well? Drink more wine!
 
+API 
+https://www.globalwinescore.com/account/api/
+
 Wireframes
 https://drive.google.com/open?id=1-AytBiAsYn8502coqBZOoZ4q0bl2XXyv
 
@@ -35,6 +38,12 @@ https://drive.google.com/open?id=1-AytBiAsYn8502coqBZOoZ4q0bl2XXyv
 Priority Matrix
 
 https://drive.google.com/open?id=1-Eiw-GcAjMAoDh2qkjkmGqqPponQ2Wsx
+
+Inspiration
+
+www.winefolly.com
+
+www.vinepair.com
 
 MVP
 Find and use external api
