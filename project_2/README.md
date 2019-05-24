@@ -98,17 +98,17 @@ Footer	This will render the header include the nav
 
 Component	Priority	Estimated Time	Actual Time
 
-Render 3 Components	 H	5hrs	
+Render 3 Components	 H	8.5hrs	
 
-Working with API	H	4hrs	
+Working with API	H	8hrs	
 
-Render Data List  H    4hrs
+Render Data List  H    8.5hrs
 
-Style    H     4hrs
+Style    H     7hrs
 
-Return Homepage/Refresh Data   H  4hrs
+Return Homepage/Refresh Data   H  6hrs
 
-Total	H	21hrs   
+Total	H	40hrs   
 
 
 Additional Libraries
