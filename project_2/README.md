@@ -19,7 +19,9 @@ Day 5	Initial Clickable Model
 
 Day 6	MVP
 
-Day 7	Present
+Day 7 Post MVP/Additional stylings
+
+Day 8	Present
 
 Project Description
 
