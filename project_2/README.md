@@ -1,9 +1,12 @@
-Project Schedule
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.
+Project 2!!!!
 
+
+Project Schedule
 
 
 Day	Deliverable	Status
+
+
 Day 1	Project Description
 
 Day 2	Wireframes / Priority Matrix / Functional Components
