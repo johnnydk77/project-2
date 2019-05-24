@@ -5,10 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Intro to Wine!!!</h1>
-      <h2>Glossary</h2>
-      <h2>Descriptions</h2>
-      <h2>Regions</h2>
+      <h1>Be Your Own Bartender!</h1>
+      <h2>Ingredients of Your Choice!</h2>
+      <h2>Cocktail Deconstructor!</h2>
+     
     </div>
   );
 }

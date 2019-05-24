@@ -25,30 +25,33 @@ Day 8	Present
 
 Project Description
 
-Learn the Basics of Wine! 
+Be Your Own Bartender App!
 
-This app will set you on the way to becoming the oneophile (definition: google it!) that you've always wanted to be. And....you'll get the info you need to be able to identify the basic elements and components (yes, corny coding joke.....Steve!) that make enjoying wine even more enjoyable! 
+In today's current nightmarish socio-political climate who doesn't need a drink! 
 
-The components will walk you through the 7 major growing regions with a concise defintion and description of the varietals themselves as well as identifying the predominant grapes of the major growing regions.
+Have you always wanted to know how to craft your own cocktails?! Well now you can. The Be Your Own Bartender App will help you indentify the ingredients in those classic cocktails. It will also allow you to search new cocktail ideas by whatever ingredient you feel like having.
 
-Oh, and if this encourages you to drink more wine...well? Drink more wine!
+So drink up! You can now have all the booze data you'll need at your fingertips!
 
 API 
-https://www.globalwinescore.com/account/api/
 
-Wireframes
-https://drive.google.com/open?id=1-AytBiAsYn8502coqBZOoZ4q0bl2XXyv
+https://www.thecocktaildb.com/api.php
 
+Wireframe
+
+https://drive.google.com/open?id=1-FPffg7PlHoQVDHyCef6rld5DcPnqBg7
 
 Priority Matrix
 
-https://drive.google.com/open?id=1-Eiw-GcAjMAoDh2qkjkmGqqPponQ2Wsx
+https://drive.google.com/open?id=1-dqbcePgL_uJm5qbShza_f0KdyBBGXmY
 
 Inspiration
 
-www.winefolly.com
+https://thedrinkblog.com/
 
-www.vinepair.com
+https://tipsybartender.com/
+
+
 
 MVP
 Find and use external api
@@ -67,16 +70,19 @@ Style each Component
 
 PostMVP
 
-Link a Maps page with the growing regions of the seven major growing regions
+Link images to cocktail when rendered
 
-Add CSS animations to the click events
+Add CSS animations to the click events and in the DOM
 
-Add wine giphs throughout App
+When cocktail ingredients are rendered have a link to actual bars where you can get the drink
+
+
 
 
 React Architectural Design
 
-https://drive.google.com/open?id=1DJaQO29s7LTBbgauf0xQGYoWMxOugMHB
+https://drive.google.com/open?id=1-jOvGAOUaqQ_qdks2VB9sr7IKixEQbBb
+
 
 
 Functional Components
@@ -111,12 +117,12 @@ Additional Libraries
 
 
 Code snippet
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description
+
 
 
 Change Log
 
-Use this section to document what changes were made and the reasoning behind those changes.
+
 
 
 
@@ -124,7 +130,6 @@ Use this section to document what changes were made and the reasoning behind tho
 
 Issues and Resolutions
 
-Use this section to list of all major issues encountered and their resolution.
 
 
 
