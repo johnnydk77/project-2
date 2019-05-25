@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { Route, Link } from 'react-router-dom'
+import { Route, Link } from 'react-router-dom';
+import IngredientList from './IngredientList'
 
 
 
@@ -19,12 +20,16 @@ class Ingredients extends Component {
 
 
 render(){
-console.log('hi')
     return(
 
 
         <div>
-            <h1>Hello!</h1>
+                     <form>
+        <input type='text' placeholder='Enter Ingredient' />
+        <button type='submit' ><Link to="/IngredientList">Ingredient List</Link>Submit</button>
+      </form>
+                
+                
         </div>
 
 
