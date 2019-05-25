@@ -7,7 +7,7 @@ Project Schedule
 Day	Deliverable	Status
 
 
-Day 1	Project Description
+Day 1	Project Description √
 
 Day 2	Wireframes / Priority Matrix / Functional Components
 

@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
+import { Route, Link } from "react-router-dom"
+import Homepage from './components/Homepage'
+import Cocktails from './components/Cocktails'
+import Ingredients from './components/Ingredients'
 
 function App() {
+
   return (
     <div className="App">
-      <h1>Be Your Own Bartender!</h1>
-      <h2>Ingredients of Your Choice!</h2>
-      <h2>Cocktail Deconstructor!</h2>
-     
+      <Route exact path='/' component={Homepage} />
+      <Route path='/Cocktails' component={Cocktails} />
+      <Route path='/Ingedients/:id' component={Ingredients} />
     </div>
   );
 }
