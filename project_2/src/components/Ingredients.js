@@ -5,8 +5,11 @@ import { Route, Link } from 'react-router-dom'
 
 
 
+
+
 class Ingredients extends Component {
     constructor(props){
+        super(props)
 
 
 }
@@ -16,6 +19,7 @@ class Ingredients extends Component {
 
 
 render(){
+console.log('hi')
     return(
 
 
