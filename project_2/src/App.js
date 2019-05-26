@@ -18,7 +18,7 @@ function App() {
       <Route path='/Cocktails' component={Cocktails} />
       <Route path='/Ingredients' component={Ingredients} />
       <Route path='/CocktailList/:value' component={CocktailList}/>
-      <Route path='/IngredientList' component={IngredientList}/>
+      <Route path='/IngredientList/:value' component={IngredientList}/>
     </div>
   );
 }
