@@ -17,13 +17,6 @@ class Cocktails extends Component {
     }
 
 
-//   async componentDidMount () {
-//     const getList = await axios.get('https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=11007')
-//     console.log(getList)
-//     this.setState ({
-//         cocktailList: getList.data.drinks
-//     })
-// }
 
 handleChange(e) {
     this.setState({

@@ -19,6 +19,16 @@ function App() {
       <Route path='/Ingredients' component={Ingredients} />
       <Route path='/CocktailList/:value' component={CocktailList}/>
       <Route path='/IngredientList/:value' component={IngredientList}/>
+    
+    
+      {/* exact path="/stocks" 
+            render= {() => <Stocks stocks={this.state.stocks} />} 
+          />
+          <Route 
+            exact path='/stocks/:id'
+            render={ (props) => <StockDetail {...props} stock={props.match.params.name} />}
+          />
+     */}
     </div>
   );
 }
