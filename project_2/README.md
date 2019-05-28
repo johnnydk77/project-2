@@ -9,13 +9,13 @@ Day	Deliverable	Status
 
 Day 1	Project Description √
 
-Day 2	Wireframes / Priority Matrix / Functional Components
+Day 2	Wireframes / Priority Matrix / Functional Components √
 
-Day 3	Core Application Structure (HTML, CSS, etc.)
+Day 3	Core Application Structure (HTML, CSS, etc.) 
 
-Day 4	Pseudocode / actual code
+Day 4	Pseudocode / actual code  almost....
 
-Day 5	Initial Clickable Model
+Day 5	Initial Clickable Model almost as well.....
 
 Day 6	MVP
 
@@ -98,11 +98,11 @@ Footer	This will render the header include the nav
 
 Component	Priority	Estimated Time	Actual Time
 
-Render 3 Components	 H	8.5hrs	
+Render 3 Components	 H	8.5hrs	- 4hrs
 
-Working with API	H	8hrs	
+Working with API	H	8hrs - 3 hrs	
 
-Render Data List  H    8.5hrs
+Render Data List  H    8.5hrs  - 4hrs
 
 Style    H     7hrs
 
@@ -117,11 +117,17 @@ Additional Libraries
 
 
 Code snippet
+    
+         <form>
+        <input type='text' placeholder='Enter Cocktail' value={this.state.cocktailName} onChange={this.handleChange}/>
 
+        <button type='submit' onClick={this.submitFn}><Link to={`/CocktailList/${this.state.cocktailName}`}>Cocktails List</Link></button>
+      </form>
 
 
 Change Log
 
+May be changing how the date is rendered in the UI so the flow makes more sense. My initial plan seems clunky and not particularly great UI flow.
 
 
 
@@ -131,5 +137,5 @@ Change Log
 Issues and Resolutions
 
 
-
+So I am having an issue with how the data is stored in the api. I need to be able to grab up to 15 individual props that are stored as objects with most of the values being "" or null. 
 
