@@ -34,10 +34,33 @@ componentDidMount() {
         return (
 
             <div>
-            <h4>Cocktail: {this.state.updateCocktailName.strDrink}</h4>
-            <h4>Ingredients: {this.state.updateCocktailName.strIngredient1}</h4>
+            <h5>Cocktail: {this.state.updateCocktailName.strDrink}</h5>
+            <h6>{this.state.updateCocktailName.strIngredient1}</h6>
+            <h6>{this.state.updateCocktailName.strIngredient2}</h6>
+            <h6>{this.state.updateCocktailName.strIngredient3}</h6>
+            <h6>{this.state.updateCocktailName.strIngredient4}</h6>
+            <h6>{this.state.updateCocktailName.strIngredient5}</h6>
+            <h6>{this.state.updateCocktailName.strIngredient6}</h6>     
+            <h6>{this.state.updateCocktailName.strIngredient7}</h6>
+            <h6>{this.state.updateCocktailName.strIngredient8}</h6>
+            <h6>{this.state.updateCocktailName.strIngredient9}</h6>
+            <h6>{this.state.updateCocktailName.strIngredient10}</h6>
+
+             <h6>Get to Mixing!</h6>
+             <h6>{this.state.updateCocktailName.strMeasure1}</h6> 
+            <h6>{this.state.updateCocktailName.strMeasure2}</h6>
+            <h6>{this.state.updateCocktailName.strMeasure3}</h6>
+            <h6>{this.state.updateCocktailName.strMeasure4}</h6>
+            <h6>{this.state.updateCocktailName.strMeasure5}</h6>
+            <h6>{this.state.updateCocktailName.strMeasure6}</h6>
+            <h6>{this.state.updateCocktailName.strMeasure7}</h6>
+            <h6>{this.state.updateCocktailName.strMeasure8}</h6>
+            <h6>{this.state.updateCocktailName.strMeasure9}</h6>
+            <h6>{this.state.updateCocktailName.strMeasure10}</h6> 
+
             
-            </div>
+
+         </div>
 
 
 

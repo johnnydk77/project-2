@@ -34,7 +34,8 @@ class IngredientList extends Component {
     {this.state.updateIngredientName.map(drink => (
             <div>
             <h4>Cocktail: {drink.strDrink}</h4>
-           {/* <h4>Ingredients: {this.state.updateIngredientName.strDrink}</h4> */}
+            <img src={drink.strDrinkThumb}  alt='cocktail img'/>
+           
            </div>
     ))}
 
