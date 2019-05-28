@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  background-color: rgb(94, 20, 20);
-  font-size: 60px;
-  background-image: url('https://i.imgur.com/BYbaLw7.png');
-  color: white;
+.container-1 {
+  display: flex;
+  background-color:rgb(180, 170, 170); 
+  color: rgb(3, 10, 114);
+  font-family: 'Hind Madurai', sans-serif;
+  border: 3px black;
+  padding: 10px; 
   
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.container-1 div {
+ 
+  align-content: center;
+  
 }
+
+.box-1 {
+  /* border: 3px black;
+  padding: 10px;  */
+}
+
+.box-2 {
+
+}
+
+.box-3 {
+
+}
+
+.cont-gloss1 {
+  display: flex;
+  background: url('https://images.unsplash.com/photo-1529502669403-c073b74fcefb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed; 
+  background-size: cover;
+  /* background-blend-mode: lighten; */
+
+  
+}
+
+/* img{
+  opacity: 0.5;
+} */
+
+
+
+.gloss-1 {
+  font-size: 40px;
+  color: rgb(248, 237, 137);
+  text-shadow: 0 0 3px rgb(248, 228, 228);
+
+ 
+}
+
+
+.gloss-list {
+  list-style-type: none;
+  color: rgb(248, 237, 137);
+  text-align: left;
+  text-decoration: underline;
+  text-shadow: 0 0 3px rgb(248, 228, 228);
+ 
+
+}
+
+.gloss-button {
+  background-color: yellow;
+  color: rgb(83, 23, 23);
+  border: 5px solid rgb(83, 23, 23);
+  padding: 20px;
+  border-radius: 5px;
+  margin:10px;
+  font-size: 20px;
+  box-shadow: 0 0 3px rgb(248, 228, 228)
+
+}
+
+
+
+

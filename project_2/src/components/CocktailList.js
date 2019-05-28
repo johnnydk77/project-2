@@ -30,7 +30,7 @@ class CocktailList extends Component {
 
 
     render() {
-        // console.log(this.props.match.params.value)
+     
         return (
 
             <div>

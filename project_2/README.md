@@ -11,11 +11,11 @@ Day 1	Project Description √
 
 Day 2	Wireframes / Priority Matrix / Functional Components √
 
-Day 3	Core Application Structure (HTML, CSS, etc.) 
+Day 3	Core Application Structure (HTML, CSS, etc.) Done √
 
 Day 4	Pseudocode / actual code  almost....
 
-Day 5	Initial Clickable Model almost as well.....
+Day 5	Initial Clickable Model  Done √
 
 Day 6	MVP
 
@@ -54,21 +54,20 @@ https://tipsybartender.com/
 
 
 MVP
-Find and use external api
+Find and use external api √
 
-Render data on page in a list
+Render data on page in a list √
 
-Create 3 functional Components that Render
+Create 3 functional Components that Render √
 
-Return to Homepage/Refresh Data
-
-Style each Component
-
+Return to Homepage/Refresh Data √
 
 
 
 
 PostMVP
+
+Style each Component
 
 Link images to cocktail when rendered
 
@@ -98,9 +97,9 @@ Footer	This will render the header include the nav
 
 Component	Priority	Estimated Time	Actual Time
 
-Render 3 Components	 H	8.5hrs	- 4hrs
+Render 3 Components	 H	8.5hrs	- 4hrs √
 
-Working with API	H	8hrs - 3 hrs	
+Working with API	H	8hrs - 3 hrs	√
 
 Render Data List  H    8.5hrs  - 4hrs
 
