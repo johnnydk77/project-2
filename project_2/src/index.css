@@ -21,21 +21,22 @@ body{
 }
 
 .header-row {
-  background-color: rgb(104, 199, 249);
+  background-color: rgb(153, 213, 245);
 	flex-basis: 100%;
 	text-align: center;
   border: 1px solid black;
 }
 
 .homeh1 {
-  font-size: 30px;
+  font-size: 80px;
   text-align: center;
+  color: rgb(82, 11, 11);
 }
 
-.homeh2 {
+/* .homeh2 {
   font-size: 30px;
   text-align: center;
-}
+} */
 
 .cocktail {
   flex-basis: 25%;
@@ -47,26 +48,101 @@ body{
    flex-basis: 50%;
    /* background-color: rgb(211, 202, 209); */
    background: url('https://i.imgur.com/cDUSOgK.jpg');
-   color: rgb(248, 170, 26);
+   /* color: rgb(248, 170, 26);
    text-shadow: 4px 4px 4px rgb(15, 1, 1);
+   font-size: 50px; */
    /* text-align: top; */
-   
+   /* opacity: 0.8; */
+  }
 
+  .content-font {
+    color: rgb(228, 150, 6);
+   text-shadow: 5px 5px rgb(2, 3, 12);
+   font-size: 150px;
+   vertical-align: top; 
     
-
- }
+  }
 
  .ingredient {
   flex-basis: 25%;
-  background-color: rgb(168, 6, 165);
+  background-color: rgb(151, 89, 150);
+  /* border: 3px brown; */
 
+
+}
+
+.container-clist1 {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Hind Madurai',sans-serif;
+	border: 1px solid black;
+  /* height: 50vh; */
+  font-size: 45px;
+
+}
+.header-list {
+  background-color: rgb(153, 213, 245);
+	flex-basis: 100%;
+	text-align: center;
+  border: 4px solid black;
+  padding: 40px;
+}
+
+.box1 {
+  flex-basis: 50%;
+  background-color: rgb(225, 178, 128);
+  border: 3px brown;
+ 
+}
+
+.box2 {
+  flex-basis: 50%;
+  background-color: rgb(225, 178, 128);
+  border: 3px brown;
+ 
+}
+
+.button-list-1 {
+  height: 100px;
+  width: 300px;
+  border: 8px solid gray;
+  background-color: bisque;
+  font-size: 40px;
+  align-content: center;
+  justify-content: center;
 
 }
 
 .glossary {
   flex-basis: 100%;
 	background-color: rgb(104, 199, 249);
-	border-top: 5px solid black;
+  border-top: 5px solid black;
+  height: 50px;
+  width: 200px;
+}
+
+.button-home1 {
+  height: 100px;
+  width: 300px;
+  border: 8px solid gray;
+  background-color: bisque;
+  font-size: 40px;
+}
+
+.button-home2 {
+  height: 100px;
+  width: 300px;
+  border: 8px solid gray;
+  background-color: bisque;
+  font-size: 40px;
+}
+
+.button-home3 {
+  height: 100px;
+  width: 300px;
+  border: 8px solid gray;
+  background-color: bisque;
+  font-size: 40px;
 }
 
 .container3 {
@@ -81,9 +157,26 @@ body{
 
 }
 
-.buttons-cocktail {
+
+
+
+
+.cocktail-button {
   display: flex;
-  font-size:15pt;
+  font-size:40px;
+  align-content: center;
+  justify-content: center;
+  color: rgb(75, 5, 5);
+  background-color: rgb(230, 245, 195);
+  border: 3px solid rgb(80, 73, 73);
+ 
+
+}
+.sub-button1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size:40px;
   color: rgb(75, 5, 5);
   background-color: rgb(230, 245, 195);
   border: 3px solid rgb(80, 73, 73);
@@ -131,15 +224,17 @@ body{
 }
 
 .input-ingred {
-  height: 30px;
+  height: 50px;
   width: 100px;
-  border: 2px rgb(124, 64, 64);
+  border: 10px maroon;
+ 
 
 }
 
 .ingred-submit {
-  height: 30px;
+  height: 50px;
   width: 100px;
+  color: orange;
 
 }
 
@@ -169,31 +264,50 @@ body{
 
 
 
-.gloss-1 {
-  font-size: 40px;
-  color: rgb(248, 237, 137);
-  text-shadow: 0 0 3px rgb(241, 38, 164);
+
 
  
-}
 
-.cont-gloss1 {
+
+/* .cont-gloss1 {
   display: flex;
+  position: absolute;
+  height: 90vh;
   background: url('https://images.unsplash.com/photo-1529502669403-c073b74fcefb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed; 
   background-size: cover;
 
 
   
-}
+} */
 
+/* /* .cont-gloss1 {
+  display: flex;
+  /* justify-content: center;
+  align-content: center; */
+
+
+
+/* 
+img {
+  
+  position: absolute;
+  opacity: 0.4;
+
+}  */
+
+.gloss-1 {
+  font-size: 40px;
+  color: rgb(226, 224, 247);
+  text-shadow: 0 0 3px rgb(114, 3, 71);
+}
 
 .gloss-list {
   list-style-type: none;
-  color: rgb(248, 237, 137);
+  color: rgb(30, 178, 236);
   text-align: left;
   text-decoration: underline;
-  text-shadow: 0 0 3px rgb(255, 84, 198);
-  font-size: 30px;
+  /* text-shadow: 2px 1px rgb(158, 247, 86); */
+  font-size: 35px;
  
 
 }

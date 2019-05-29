@@ -32,8 +32,9 @@ class CocktailList extends Component {
     render() {
      
         return (
-
-            <div>
+            <div className='container-clist1'>
+                <header className='header-list'>Start Pouring</header>
+                <div className='box1'>
                 <h5>Cocktail: {this.state.updateCocktailName.strDrink}</h5>
                 <h6>{this.state.updateCocktailName.strIngredient1}</h6>
                 <h6>{this.state.updateCocktailName.strIngredient2}</h6>
@@ -45,7 +46,8 @@ class CocktailList extends Component {
                 <h6>{this.state.updateCocktailName.strIngredient8}</h6>
                 <h6>{this.state.updateCocktailName.strIngredient9}</h6>
                 <h6>{this.state.updateCocktailName.strIngredient10}</h6>
-
+                </div>
+                <div className='box2'>
                 <h6>Get to Mixing!</h6>
                 <h6>{this.state.updateCocktailName.strMeasure1}</h6>
                 <h6>{this.state.updateCocktailName.strMeasure2}</h6>
@@ -57,16 +59,17 @@ class CocktailList extends Component {
                 <h6>{this.state.updateCocktailName.strMeasure8}</h6>
                 <h6>{this.state.updateCocktailName.strMeasure9}</h6>
                 <h6>{this.state.updateCocktailName.strMeasure10}</h6>
-
+                </div>
 
             
 
-            <div>
-                <button><Link to='/'>Home</Link></button>
+            <div className='box3'>
+                <button className='button-list-1'><Link to='/'>Home</Link></button>
             </div>
-           
-
-           </div>
+          
+                </div>
+                
+          
 
         )
 

@@ -38,12 +38,12 @@ class Cocktails extends Component {
 
             <div className='container3'>
                 <div className='buttons-cocktail'>
-                    <div className='cocktail-button'>
-                    <input type='text' placeholder='Enter Cocktail' value={this.state.cocktailName} onChange={this.handleChange} />
+                    <div>
+                    <input className='cocktail-button' type='text' placeholder='Enter Cocktail' value={this.state.cocktailName} onChange={this.handleChange} />
                     </div>
                     <div>
-                    <div className='sub-button1'>
-                    <button type='submit' onClick={this.submitFn}><Link to={`/CocktailList/${this.state.cocktailName}`}>Cocktails List</Link></button>
+                    <div>
+                    <button className='sub-button1' type='submit' onClick={this.submitFn}><Link to={`/CocktailList/${this.state.cocktailName}`}>Search</Link></button>
                 </div>
                 </div>
             </div>

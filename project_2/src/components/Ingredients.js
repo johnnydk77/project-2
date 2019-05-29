@@ -52,8 +52,8 @@ class Ingredients extends Component {
                 </div>
             <input className='input-ingred' type='text' placeholder='Enter Ingredient' value={this.state.ingredientName} onChange={this.handleChange} />
             </div>
-           <div className='ingred-submit'>
-            <button type='submit' onClick={this.newSubmitFn}><Link to={`/IngredientList/${this.state.ingredientName}`}>Search</Link></button>
+           <div>
+            <button className='ingred-submit' type='submit' onClick={this.newSubmitFn}><Link to={`/IngredientList/${this.state.ingredientName}`}>Search</Link></button>
             </div>
             </div>
 
