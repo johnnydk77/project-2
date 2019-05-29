@@ -40,20 +40,9 @@ class Ingredients extends Component {
 
 
     render() {
-        // let redirect;
+       
         return (
 
-            // let redirect;
-        // // chacking redirect value. I true redirect to stocks component or false return null
-        // this.state.redirect ? redirect = <Redirect to='/components/CocktailList' /> : redirect = null
-        // return(
-        //     <div>
-        //         // stock name 
-        //         { this.state.stock.name }
-        //         // button click resets state to true
-        //         <button onClick={() => this.setState({redirect: true})}>Back</button>
-        //         { redirect }
-        //     </div>
         <div>
 
             <input type='text' placeholder='Enter Ingredient' value={this.state.ingredientName} onChange={this.handleChange} />

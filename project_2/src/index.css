@@ -1,40 +1,126 @@
+
+
+body{
+  font-family: 'Hind Madurai',sans-serif;
+  background-color: rgb(245, 227, 190);
+   padding: auto 0px; 
+}
+
+
+
 .container-1 {
   display: flex;
-  background-color:rgb(180, 170, 170); 
-  color: rgb(3, 10, 114);
-  font-family: 'Hind Madurai', sans-serif;
-  border: 3px black;
-  padding: 10px; 
+	flex-wrap: wrap;
+	border: 1px solid black;
+  height: 100vh;
+
   
+
 }
 
-.container-1 div {
+.header-row {
+  background-color: rgb(104, 199, 249);
+	flex-basis: 100%;
+	text-align: center;
+  border: 1px solid black;
+}
+
+.homeh1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.homeh2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.cocktail {
+  flex-basis: 25%;
+  background-color: rgb(225, 178, 128);
  
-  align-content: center;
   
 }
+ .content {
+   flex-basis: 50%;
+   background-color: rgb(211, 202, 209);
+   background: url('https://i.imgur.com/cDUSOgK.jpg') center fixed;
+    
 
-.box-1 {
-  /* border: 3px black;
-  padding: 10px;  */
+ }
+
+ .ingredient {
+  flex-basis: 25%;
+  background-color: rgb(168, 6, 165);
+
+
 }
 
-.box-2 {
+.glossary {
+  flex-basis: 100%;
+	background-color: rgb(104, 199, 249);
+	border-top: 5px solid black;
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+	border: 1px solid black;
+  height: 100vh;
+  background: url('https://i.imgur.com/vlGvAjI.jpg');
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
 
 }
 
-.box-3 {
+.buttons-cocktail {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    /* font-size: 108px; */
 
 }
+/* .cocktail-button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-size: 108px;
+ 
+}
+
+.sub-button1 {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  font-size: 48px;
+} */
 
 .cont-gloss1 {
   display: flex;
   background: url('https://images.unsplash.com/photo-1529502669403-c073b74fcefb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed; 
+  /* background-image: url('imageedit_1_8449743211.jpg') no-repeat center center fixed; */
   background-size: cover;
   /* background-blend-mode: lighten; */
 
   
 }
+
 
 /* img{
   opacity: 0.5;

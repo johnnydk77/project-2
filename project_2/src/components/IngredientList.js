@@ -56,14 +56,12 @@ class IngredientList extends Component {
 
     render() {
 
-        // let redirect;
-
-        // this.state.redirect ? redirect = <Redirect to='/CocktailList.js' /> : redirect = null
         return (
             <div>
             {this.state.updateIngredientName.map(drink => (
                     <div>
-                    <h4>Cocktail: {drink.strDrink}</h4>
+                    <h2>Cocktail Name</h2>
+                    <h3>{drink.strDrink}</h3>
                     <img src={drink.strDrinkThumb}  alt='cocktail img'/>
                    
                    </div>

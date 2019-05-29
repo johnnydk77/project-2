@@ -5,7 +5,7 @@ import CocktailList from './CocktailList'
 
 
 class Cocktails extends Component {
-    constructor (props){
+    constructor(props) {
         super(props)
 
         this.state = {
@@ -18,41 +18,44 @@ class Cocktails extends Component {
 
 
 
-handleChange(e) {
-    this.setState({
-        cocktailName: e.currentTarget.value
-    })
-}
+    handleChange(e) {
+        this.setState({
+            cocktailName: e.currentTarget.value
+        })
+    }
 
 
-submitFn (e) {
-e.preventDefault()
+    submitFn(e) {
+        e.preventDefault()
 
-}
-
-
-
-render (){
-    return (
+    }
 
 
-        <div>
-             <form>
-        <input type='text' placeholder='Enter Cocktail' value={this.state.cocktailName} onChange={this.handleChange}/>
 
-        <button type='submit' onClick={this.submitFn}><Link to={`/CocktailList/${this.state.cocktailName}`}>Cocktails List</Link></button>
-      </form>
-        
-           
-            
+    render() {
+        return (
+
+
+            <div className='container3'>
+                <div className='buttons-cocktail'>
+                    <div className='cocktail-button'>
+                    <input type='text' placeholder='Enter Cocktail' value={this.state.cocktailName} onChange={this.handleChange} />
+                    </div>
+                    <div>
+                    <div className='sub-button1'>
+                    <button type='submit' onClick={this.submitFn}><Link to={`/CocktailList/${this.state.cocktailName}`}>Cocktails List</Link></button>
+                </div>
+                </div>
+            </div>
+
             </div>
 
 
 
-    )
+        )
 
 
-}
+    }
 
 
 
