@@ -23,14 +23,7 @@ function App() {
       <Route path='/GlossaryList' component={GlossaryList}/>
     
     
-      {/* exact path="/stocks" 
-            render= {() => <Stocks stocks={this.state.stocks} />} 
-          />
-          <Route 
-            exact path='/stocks/:id'
-            render={ (props) => <StockDetail {...props} stock={props.match.params.name} />}
-          />
-     */}
+    
     </div>
   );
 }

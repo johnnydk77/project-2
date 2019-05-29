@@ -25,7 +25,7 @@ class Homepage extends Component {
 
                 
                     <div className='cocktail'>
-                        <h5 className='searchCocktail'>Search By Cocktail Name</h5>
+                        <h2 className='searchCocktail'>Search By Cocktail Name</h2>
                         <button><Link to="/Cocktails">Cocktails</Link></button>
                     </div>
                     
@@ -34,7 +34,7 @@ class Homepage extends Component {
                     </div>
                     
                     <div className='ingredient'>
-                        <h5 className='searchIngredient'>Choose Your Booze!</h5>
+                        <h2 className='searchIngredient'>Choose Your Booze!</h2>
                         <button><Link to="/Ingredients">Liquor</Link></button>
                     </div>
                     

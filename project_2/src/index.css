@@ -10,9 +10,11 @@ body{
 
 .container-1 {
   display: flex;
-	flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: 'Hind Madurai',sans-serif;
 	border: 1px solid black;
   height: 100vh;
+  font-size: 45px;
 
   
 
@@ -43,8 +45,13 @@ body{
 }
  .content {
    flex-basis: 50%;
-   background-color: rgb(211, 202, 209);
-   background: url('https://i.imgur.com/cDUSOgK.jpg') center fixed;
+   /* background-color: rgb(211, 202, 209); */
+   background: url('https://i.imgur.com/cDUSOgK.jpg');
+   color: rgb(248, 170, 26);
+   text-shadow: 4px 4px 4px rgb(15, 1, 1);
+   /* text-align: top; */
+   
+
     
 
  }
@@ -75,65 +82,108 @@ body{
 }
 
 .buttons-cocktail {
-    background-color: #4CAF50; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    /* font-size: 108px; */
+  display: flex;
+  font-size:15pt;
+  color: rgb(75, 5, 5);
+  background-color: rgb(230, 245, 195);
+  border: 3px solid rgb(80, 73, 73);
+ 
 
 }
-/* .cocktail-button {
-  background-color: #4CAF50; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  font-size: 108px;
+
+
+
+
+.ingred-background {
+  background-color: yellow;
+   color: rgb(83, 23, 23);
+  border: 5px solid rgb(83, 23, 23);
+  padding: 20px;
+  border-radius: 5px;
+  margin:10px;
+  font-size: 20px;
+  box-shadow: 0 0 3px rgb(248, 228, 228) 
+}
+
+
+
+.wrapper-ingred {
+  display: flex;
+  background: url('https://i.imgur.com/2PDdP8J.png') no-repeat center center fixed; 
+  background-size: cover;
+  height: 90vh;
+  padding: 20px;
+  justify-content: flex-end;
+  /* margin-right: 20vw; */
+  
+}
+ .ingred-background {
+    background-color: rgba(231, 231, 147, 0.5);
+   
+
+ }
+
+.box-ingred {
+  color: rgb(83, 23, 23);
+  width: 15vh;
+ /* justify-content: flex-end; */
  
 }
 
-.sub-button1 {
-  background-color: #4CAF50; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  font-size: 48px;
-} */
+.input-ingred {
+  height: 30px;
+  width: 100px;
+  border: 2px rgb(124, 64, 64);
 
-.cont-gloss1 {
-  display: flex;
-  background: url('https://images.unsplash.com/photo-1529502669403-c073b74fcefb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed; 
-  /* background-image: url('imageedit_1_8449743211.jpg') no-repeat center center fixed; */
-  background-size: cover;
-  /* background-blend-mode: lighten; */
+}
 
-  
+.ingred-submit {
+  height: 30px;
+  width: 100px;
+
 }
 
 
-/* img{
-  opacity: 0.5;
-} */
+.container-ingreds {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(240, 203, 91);
+  border: 4px solid brown;
+}
+
+.ingred-list {
+  align-content: center;
+  justify-content: center;
+  color: maroon;
+
+}
+
+.list-button {
+  height: 100px;
+  width: 400px;
+  border: 4px solid brown;
+  background-color: rgba(214, 214, 126, 0.6);
+  font-size: 50px;
+}
 
 
 
 .gloss-1 {
   font-size: 40px;
   color: rgb(248, 237, 137);
-  text-shadow: 0 0 3px rgb(248, 228, 228);
+  text-shadow: 0 0 3px rgb(241, 38, 164);
 
  
+}
+
+.cont-gloss1 {
+  display: flex;
+  background: url('https://images.unsplash.com/photo-1529502669403-c073b74fcefb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed; 
+  background-size: cover;
+
+
+  
 }
 
 
@@ -142,7 +192,8 @@ body{
   color: rgb(248, 237, 137);
   text-align: left;
   text-decoration: underline;
-  text-shadow: 0 0 3px rgb(248, 228, 228);
+  text-shadow: 0 0 3px rgb(255, 84, 198);
+  font-size: 30px;
  
 
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import { Route, Link } from 'react-router-dom';
 import IngredientList from './IngredientList'
-// import { Redirect } from 'react-router-dom'
+
 
 
 
@@ -43,13 +43,19 @@ class Ingredients extends Component {
        
         return (
 
-        <div>
+        <div className='wrapper-ingred'>
+            <div className='ingred-background'>
+            <div className='box-ingred'>
+                <div className='ingred-heading'>
+                    <h1>Choose Your Booze!</h1>
 
-            <input type='text' placeholder='Enter Ingredient' value={this.state.ingredientName} onChange={this.handleChange} />
-
-            <button type='submit' onClick={this.newSubmitFn}><Link to={`/IngredientList/${this.state.ingredientName}`}>Ingredients</Link></button>
-
-
+                </div>
+            <input className='input-ingred' type='text' placeholder='Enter Ingredient' value={this.state.ingredientName} onChange={this.handleChange} />
+            </div>
+           <div className='ingred-submit'>
+            <button type='submit' onClick={this.newSubmitFn}><Link to={`/IngredientList/${this.state.ingredientName}`}>Search</Link></button>
+            </div>
+            </div>
 
         </div>
 
