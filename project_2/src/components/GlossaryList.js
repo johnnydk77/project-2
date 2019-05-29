@@ -27,6 +27,9 @@ function GlossaryList() {
         
     
             <h2 className='gloss-1'>Glossary of Cocktail Terminology</h2>
+            <div>
+            <button className='gloss-button'><Link to='/'>Home</Link></button>
+            </div>
             <ul className='gloss-list'>
                 <li>ABV – alcohol by volume; a measure of how much alcohol is in an alcoholic beverage</li><br></br>
 
@@ -175,9 +178,9 @@ function GlossaryList() {
 
             </ul>
 
-            <div className='gloss-button'>
-            <button><Link to='/'>Home</Link></button>
-            </div>
+            {/* <div>
+            <button className='gloss-button'><Link to='/'>Home</Link></button>
+            </div> */}
         </div>
 
 
