@@ -50,7 +50,7 @@ class Ingredients extends Component {
                     <h1>Choose Your Booze!</h1>
 
                 </div>
-            <input className='input-ingred' type='text' placeholder='Enter Ingredient' value={this.state.ingredientName} onChange={this.handleChange} />
+            <input className='input-ingred' type='text' placeholder='Booze' value={this.state.ingredientName} onChange={this.handleChange} />
             </div>
            <div>
             <button className='ingred-submit' type='submit' onClick={this.newSubmitFn}><Link to={`/IngredientList/${this.state.ingredientName}`}>Search</Link></button>

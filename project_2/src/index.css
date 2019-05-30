@@ -2,8 +2,9 @@
 
 body{
   font-family: 'Hind Madurai',sans-serif;
-  background-color: rgb(243, 245, 245);
-   padding: 40px 40px; 
+  background-color: rgb(243, 216, 193);
+  padding: 60px 60px; 
+   
 }
 
 
@@ -12,7 +13,6 @@ body{
   display: flex;
   flex-wrap: wrap;
   font-family: 'Hind Madurai',sans-serif;
-	/* border: 1px solid black; */
   height: 60vh;
   font-size: 45px;
 
@@ -35,10 +35,7 @@ body{
   color: rgb(82, 11, 11);
 }
 
-/* .homeh2 {
-  font-size: 30px;
-  text-align: center;
-} */
+
 
 .cocktail {
   flex-basis: 25%;
@@ -50,27 +47,31 @@ body{
 }
  .content {
    flex-basis: 50%;
-   /* background-color: rgb(211, 202, 209); */
    background: url('https://i.imgur.com/cDUSOgK.jpg');
-   /* color: rgb(248, 170, 26);
-   text-shadow: 4px 4px 4px rgb(15, 1, 1);
-   font-size: 50px; */
-   /* text-align: top; */
-   /* opacity: 0.8; */
+   /* animation: rotate-scale-up 0.65s linear both; */
+  
+  
   }
+
+ 
+
 
   .content-font {
     color: rgb(228, 150, 6);
    text-shadow: 5px 5px rgb(2, 3, 12);
    font-size: 150px;
-   vertical-align: top; 
+   
+
     
   }
+
+   
+
 
  .ingredient {
   flex-basis: 25%;
   background-color: rgb(225, 178, 128);
-  /* border: 3px brown; */
+
 
 
 }
@@ -80,13 +81,10 @@ body{
   flex-wrap: wrap;
   font-family: 'Hind Madurai',sans-serif;
   border: 3px solid black;
-  height: 100vh;
+  /* height: 80vh; */
  
 }
   
-/* .not-foundimg {
-  justify-content: center;
-} */
 
 
 .header-row2 {
@@ -94,6 +92,8 @@ body{
     flex-basis: 100%;
     text-align: center;
     border: 4px solid black;
+    padding: 10px;
+    
   }
 
 
@@ -107,7 +107,7 @@ body{
   flex-basis: 25%;
   background-color: rgb(225, 178, 128);
   border: 3px brown;
-  font-size: 25px;
+  font-size: 40px;
   color: maroon; 
 
  
@@ -117,7 +117,7 @@ body{
   flex-basis: 25%;
   background-color: rgb(225, 178, 128);
   border: 3px brown;
-  font-size: 25px;
+  font-size: 40px;
   color: maroon;
  
 }
@@ -125,9 +125,10 @@ body{
   display: flex;
   flex-basis: 50%;
   background: url('https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
-  font-size: 40px;
+  font-size: 60px;
   
   
 
@@ -150,11 +151,7 @@ body{
   border: 8px solid gray;
   background-color: bisque;
   font-size: 40px;
-  /* align-items: center;
-  display: flex;
-  justify-content: center; */
-  /* align-content: center;
-  justify-content: center; */
+  
 
 }
 
@@ -173,6 +170,7 @@ body{
   background-color: bisque;
   font-size: 40px;
   text-decoration: none;
+  
 }
 
 .button-home2 {
@@ -182,6 +180,7 @@ body{
   background-color: bisque;
   font-size: 40px;
   text-decoration: none;
+ 
 }
 
 a {
@@ -201,7 +200,7 @@ a {
   display: flex;
   flex-wrap: wrap;
 	border: 1px solid black;
-  height: 100vh;
+  height: 88vh;
   background: url('https://i.imgur.com/vlGvAjI.jpg');
   background-size: cover;
   align-items: center;
@@ -259,7 +258,7 @@ a {
   height: 90vh;
   padding: 20px;
   justify-content: flex-end;
-  /* margin-right: 20vw; */
+
   
 }
  .ingred-background {
@@ -271,22 +270,30 @@ a {
 .box-ingred {
   color: rgb(83, 23, 23);
   width: 15vh;
- /* justify-content: flex-end; */
+ 
  
 }
 
 .input-ingred {
-  height: 50px;
-  width: 100px;
-  border: 10px maroon;
+  height: 90px;
+  width: 130px;
+  color: maroon;
+  border: 3px solid maroon;
+  font-size: 25px;
+  text-align: center;
  
 
 }
 
 .ingred-submit {
-  height: 50px;
-  width: 100px;
-  color: orange;
+  height: 90px;
+  width: 138px;
+  background-color: orange;
+  border: 3px solid maroon;
+  font-size: 25px;
+  opacity: 0.8;
+  
+
 
 }
 
@@ -347,6 +354,11 @@ a {
 
 }
 
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
 
+} */
 
 
