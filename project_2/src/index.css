@@ -70,11 +70,11 @@ body{
    font-size: 150px;
    margin: -85px;
    
+ }
+  
 
-    
-  }
+ 
 
-   
 
 
  .ingredient {
@@ -109,8 +109,13 @@ body{
 .header-list {
   font-size: 80px;
   text-align: center;
-  color: rgb(82, 11, 11)
+  color: rgb(82, 11, 11);
+  
+ 
 }
+
+
+
 
 .box1 {
   flex-basis: 25%;

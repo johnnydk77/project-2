@@ -2,16 +2,15 @@ import React from 'react';
 import { Route, Link } from "react-router-dom"
 
 
-
 function GlossaryList() {
 
     let imgUrl = 'https://images.unsplash.com/photo-1529502669403-c073b74fcefb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80'
     return (
- 
+
         <div className='img-gloss1'
-            style = {{
-                backgroundImage: 'url(' + imgUrl + ')', 
-                backgroundSize: 'cover', 
+            style={{
+                backgroundImage: 'url(' + imgUrl + ')',
+                backgroundSize: 'cover',
                 backgroundPosition: 'center center',
                 backgroundRepeat: 'no-repeat',
                 width: '90vw',
@@ -19,16 +18,16 @@ function GlossaryList() {
                 height: '90vh',
                 overflow: 'hidden',
                 overflow: 'scroll',
-               
-            
+
+
 
             }}>
 
-        
-    
+
+
             <h2 className='gloss-1'>Glossary of Cocktail Terminology</h2>
             <div>
-            <button className='gloss-button'><Link to='/'>Home</Link></button>
+                <button className='gloss-button'><Link to='/'>Home</Link></button>
             </div>
             <ul className='gloss-list'>
                 <li>ABV – alcohol by volume; a measure of how much alcohol is in an alcoholic beverage</li><br></br>
@@ -178,9 +177,11 @@ function GlossaryList() {
 
             </ul>
 
-            {/* <div>
+         
+
+            <div>
             <button className='gloss-button'><Link to='/'>Home</Link></button>
-            </div> */}
+            </div>
         </div>
 
 

@@ -54,7 +54,7 @@ class Ingredients extends Component {
             </div>
            <div>
             <button className={`ingred-submit ${disabled}`} type='submit' onClick={this.newSubmitFn}><Link to={`/IngredientList/${this.state.ingredientName}`}>Search</Link></button>
-            {/* {`sub-button1 ${disabled}`}  */}
+            
             </div>
             </div>
 
