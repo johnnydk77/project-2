@@ -177,11 +177,11 @@ function GlossaryList() {
 
             </ul>
 
-         
+
 
             <div>
-            <button className='gloss-button'><Link to='/'>Home</Link></button>
-            </div>
+                <button className='gloss-button'><Link to='/'>Home</Link></button>
+           </div>
         </div>
 
 

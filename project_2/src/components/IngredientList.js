@@ -48,7 +48,7 @@ class IngredientList extends Component {
 
                             <h2>Cocktail Name</h2>
                             <h3>{drink.strDrink}</h3>
-                            <img src={drink.strDrinkThumb} alt='cocktail img' />
+                            <img className='img-list' src={drink.strDrinkThumb} alt='cocktail img' />
 
                         </div>
                     )))}

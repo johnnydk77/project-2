@@ -148,6 +148,8 @@ I was able to keep the components in the parent/child relationship I had initial
 
 But because of this I added a glossaay component to render separately to help with the sibling link issue. 
 
+I need to add a back button to make the user flow more efficient.
+
 
 
 
@@ -166,4 +168,5 @@ New problem. By clicking on the submit button without anything in the input fiel
 
 Fixed this by adding a CSS pointer event class of disabled and using a variable 'disabled' in the onClick to stop the crashing and redirect to a new rendering of 'ingredients not found'.
 
+I need to eventually create links in the ingredientList to redirect to thes cocktailList list.
 
