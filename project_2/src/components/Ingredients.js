@@ -40,7 +40,7 @@ class Ingredients extends Component {
 
 
     render() {
-       
+        let disabled = this.state.ingredientName ?  '' : 'disabled-link'
         return (
 
         <div className='wrapper-ingred'>
@@ -53,7 +53,8 @@ class Ingredients extends Component {
             <input className='input-ingred' type='text' placeholder='Booze' value={this.state.ingredientName} onChange={this.handleChange} />
             </div>
            <div>
-            <button className='ingred-submit' type='submit' onClick={this.newSubmitFn}><Link to={`/IngredientList/${this.state.ingredientName}`}>Search</Link></button>
+            <button className={`ingred-submit ${disabled}`} type='submit' onClick={this.newSubmitFn}><Link to={`/IngredientList/${this.state.ingredientName}`}>Search</Link></button>
+            {/* {`sub-button1 ${disabled}`}  */}
             </div>
             </div>
 

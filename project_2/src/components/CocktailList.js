@@ -40,7 +40,7 @@ class CocktailList extends Component {
         return (
             <div className='container-clist1'>
                 {this.state.updateCocktailName === 'Not Found' && (
-                    <div className='not-foundimg'>
+                    <div className='not-found-img'>
                         <h1>{this.state.updateCocktailName}</h1>
                     </div>
                 )}

@@ -22,6 +22,8 @@ class Cocktails extends Component {
         this.setState({
             cocktailName: e.currentTarget.value
         })
+        
+        
     }
 
 
@@ -33,6 +35,8 @@ class Cocktails extends Component {
 
 
     render() {
+        let disabled = this.state.cocktailName ?  '' : 'disabled-link'
+        console.log(disabled)
         return (
 
 
@@ -43,7 +47,7 @@ class Cocktails extends Component {
                     </div>
                     <div>
                     <div>
-                    <button className='sub-button1' type='submit' onClick={this.submitFn}><Link to={`/CocktailList/${this.state.cocktailName}`}>Search</Link></button>
+                    <button className={`sub-button1 ${disabled}`} type='submit' onClick={this.submitFn}><Link to={`/CocktailList/${this.state.cocktailName}`}>Search</Link></button>
                 </div>
                 </div>
             </div>
